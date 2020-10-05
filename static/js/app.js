@@ -49,7 +49,7 @@ function plotData(subject) {
         var bar_data = [trace];
 
         var layout = {
-            xaxis: {title: "otu_ids"}
+            xaxis: {title: "Sample Values for the First Ten Samples"}
         };
         Plotly.newPlot("bar", bar_data, layout);
     });
@@ -78,7 +78,7 @@ function plotBubble(subject) {
         var bubble_data = [trace];
 
         var layout = {
-            xaxis: {title: "OTU_ID"}
+            xaxis: {title: "OTU ID"}
         };
 
         Plotly.newPlot("bubble", bubble_data, layout);
